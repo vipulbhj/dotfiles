@@ -2,6 +2,9 @@
 syntax on
 set number
 set relativenumber
+colorscheme onedark
+highlight Normal ctermbg=None
+highlight LineNr ctermbg=None
 
 set tabstop=2
 set softtabstop=2
@@ -10,6 +13,7 @@ set smarttab
 set expandtab
 
 set backspace=indent,eol,start
+
 
 " Maps
 inoremap jk <esc>
